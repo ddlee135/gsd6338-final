@@ -105,7 +105,7 @@ function draw() {
 
         //infection color display
         particles[i].changeColor(200, 10, 10, 90);
-        particles[i].move(3.5);
+        particles[i].move(4);
 
         let iw = map(i, 0, i, 5, width/i);
         fill(225, 50, 50, 90);
