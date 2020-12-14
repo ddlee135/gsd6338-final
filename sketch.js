@@ -66,10 +66,10 @@ function draw() {
   if (mode == 0) {
     background(255);
     textAlign(CENTER);
-    let intro = 'Nearly a year into the coronavirus pandemic, the official global death toll has exceeded 1.56 million with nearly 70 million confirmed cases around the globe.  Due to exponential viral spread, the delay in action was devastating. In the wake of the US response, 117,858 Americans have died in the 4 months following the first 15 confirmed local cases. Despite the continuous effort by the public health officials to prepare and deliver vaccines, 3,000 people just have lost their lives to COVID-19 on a single day this week in the United States. Had American leaders taken the early and decisive measures as our allied countries, how many of those COVID-19 cases and deaths could have been prevented?'
-    let instruction = 'Here, you will be testing how one\"s prompt and decisive action can prevent both the number of cases and deaths. CLICK on the neutral particles represented in grey color to have them immuned from the rapidly spreading contagious disease.'
-    text(intro, width - (width - 80), height * 0.15, width * 0.7, height * 0.7);
-    text(instruction, width - (width - 80), height * 0.6, width * 0.7, height * 0.7);
+    let intro = 'Nearly a year into the coronavirus pandemic, the official global death toll has exceeded 1.56 million with nearly 70 million confirmed cases around the globe.  Due to the highly contagious nature of the viral infection, delayed response in many countries has brought detrimental consequences to their citizens. In the wake of the US response, more than 117,500 Americans have died in the 4 months following the first 15 confirmed local cases and recently 3,000 people just have lost their lives to COVID-19 on a single day this week in the United States. Had American leaders taken the early and decisive measures as our allied countries, how many of those COVID-19 cases and deaths could have been prevented?'
+    let instruction = 'Nonetheless, as the public health officials are reviewing and preparing the emergency-use vaccine distribution now, there are reports and questions looming about the effectiveness of the vaccine as a preventive agent. ‘Contagion’ will offer an opportunity to visualize how one’s prompt and decisive action can prevent not oneself, but also other vulnerable family members and neighborhoods. CLICK on the neutral particles that are represented in grey dots and create an inoculated herd to protect the rest from the rapidly spreading contagious disease.'
+    text(intro, width - (width - 60), height * 0.13, width * 0.8, height * 0.7);
+    text(instruction, width - (width - 60), height * 0.52, width * 0.8, height * 0.7);
     text('Press enter to start', width / 2, height * 0.85)
   }
 
